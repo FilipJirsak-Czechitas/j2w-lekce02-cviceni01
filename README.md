@@ -24,7 +24,7 @@ CSS framework [Bootstrap](https://getbootstrap.com).
    ```
 1. Pro zobrazení velkého nápisu lze použít následující třídy z Bootstrapu:   
    ```html
-   <h1 class="display-1 fw-bold" th:text="${datum}">Nápis</h1>
+   <h1 class="display-1 fw-bold">Nápis</h1>
    ```
 1. Zkontroluj výsledek v prohlížeči.
 
