@@ -23,7 +23,7 @@ CSS framework [Bootstrap](https://getbootstrap.com).
    LocalTime.now().format(TIME_FORMATTER)
    ```
 1. Pro zobrazení velkého nápisu lze použít následující třídy z Bootstrapu:   
-   ```java
+   ```html
    <h1 class="display-1 fw-bold" th:text="${datum}">Nápis</h1>
    ```
 1. Zkontroluj výsledek v prohlížeči.
