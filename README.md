@@ -19,8 +19,8 @@ CSS framework [Bootstrap](https://getbootstrap.com).
 1. Metoda pro výpis času vloží do modelu čas (hodiny a minuty) zformátované v českém formátu:
    ```java
    final Locale LOCALE = Locale.forLanguageTag("cs-CZ");
-   final TIME_FORMATTER = DateTimeFormatter.ofPattern("H:mm", LOCALE);
-   LocalTime.now().format(TIME_FORMATTER)
+   final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("H:mm", LOCALE);
+   LocalTime.now().format(TIME_FORMATTER);
    ```
 1. Pro zobrazení velkého nápisu lze použít následující třídy z Bootstrapu:   
    ```html
